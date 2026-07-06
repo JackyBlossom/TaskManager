@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import openpyxl; print\\('ok'\\)\")",
+      "Bash(python -c \"import openpyxl; print\\('ok'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python3)",
+      "PowerShell(python --version)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(winget install OpenJS.NodeJS.LTS --accept-source-agreements --accept-package-agreements --silent)",
+      "PowerShell(python -m venv C:\\\\work\\\\enginner\\\\TaskManager\\\\backend\\\\venv)",
+      "PowerShell(C:\\\\work\\\\enginner\\\\TaskManager\\\\backend\\\\venv\\\\Scripts\\\\pip.exe install -r C:\\\\work\\\\enginner\\\\TaskManager\\\\backend\\\\requirements.txt --quiet)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;\" + $env:Path; Set-Location C:\\\\work\\\\enginner\\\\TaskManager\\\\frontend; & \"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" install --no-fund --no-audit)",
+      "Bash(python -c ' *)",
+      "PowerShell(C:\\\\work\\\\enginner\\\\TaskManager\\\\backend\\\\venv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--work-enginner-TaskManager\\\\84d27880-39bb-45cb-9120-cf52350803c2\\\\scratchpad\\\\restore.py\")"
+    ]
+  }
+}
